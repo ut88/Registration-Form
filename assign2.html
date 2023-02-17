@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        #block{
+            margin: auto;
+            width:fit-content;
+            padding: 25px; 
+            text-align: center; 
+            background-color:rgb(200, 211, 221);
+            height: 70%;
+        }
+          body{
+             background-image: url('images.png'); 
+             background-size: cover;
+        }
+        h2{
+            color: blueviolet;
+        }
+        p{
+            color: rgb(178, 110, 218);
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script>
+            let form1 = document.getElementById('block');
+            console.log(form1);
+    </script>
+</head>
+<body>
+    <div id="block">
+   <form class="form">
+    <h2>Book a Call</h2>
+    <p>Book a call slot and our representative will call you within selected time</p>
+    <hr>
+    <label  >NAME:
+    <input type="text">
+     </label><br><br>
+    <label>EMAIL:
+    <input type="text">
+    </label><br><br>
+    <label>PHONE:
+     <input type="number">   
+    </label><br><br>
+    <label> TIME FOR CALL:
+      <input type="date">
+      <input type="time">  
+    </label><br><br>
+    <input type="submit" value="Get a call" style="width: max-content;">
+   </form> 
+   </div>
+</body>
+</html>
